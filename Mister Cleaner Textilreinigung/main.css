@@ -1,0 +1,401 @@
+/*Default Settings*/
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+	header, nav, section, article, aside, footer, 
+	{
+	display: block;
+}
+	
+/*Ende Default Settings*/
+	
+/* .......................................................*/
+
+/*Visitenkarte gesamt*/
+
+body {
+	
+	background-color: rgba(26, 186, 156, 0.3);
+	font-family: Tahoma, Helvetica;
+	letter-spacing: 1px;
+	font-style: normal;
+	font-size: 95%;
+}
+#site {
+	width: 1100px;
+	margin-top: 0em;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+}
+
+#gesamt {
+	width: 65em;
+	font-size: 95%;
+	margin-top: 1em;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 0.5em 0.5em 0.5em 0.5em;
+	background: #FFFFFF;
+	box-shadow: 2px 2px 2px #ffffff, 0 0 25px #ffffff, 0 0 20px #fff;
+	-moz-box-shadow: 2px 2px 2px #ffffff, 0 0 25px #ffffff, 0 0 20px #fff;
+	-webkit-box-shadow: 2px 2px 2px #ffffff, 0 0 25px #ffffff, 0 0 20px #fff;			
+}
+/* ................................................*/
+
+/* Oberer Bereich */	
+
+	header {
+	width: 64em;
+	margin-bottom: 0;
+	margin: auto;
+	border-radius: 5px;
+	background-color: rgba(26,186,156,0.8);
+	background: linear-gradient(to top, #1aba9c, #FFFFFF);
+	border-width: 1px;
+	border-style: solid;
+	border-color: #1aba9c;
+	box-shadow: 4px 4px 4px #272d3a, 0 0 25px #ffffff, 0 0 20px #ffffff;
+	-moz-box-shadow: 4px 4px 4px #272d3a, 0 0 25px #ffffff, 0 0 20px #ffffff;
+	-webkit-box-shadow: 4px 4px 4px #272d3a, 0 0 25px #ffffff, 0 0 20px #ffffff;
+}
+
+#bild1 {
+	padding-left: 3em;
+	padding-top: 1.8em;
+	float: left;	
+}
+
+h1 {
+	color: #fff;
+	text-shadow: 2px 2px 2px #272d3a, 0 0 25px #DFD9E3, 0 0 20px #fff;
+	font-size: 5em;
+	font-family: "Slabo 27px", sans-serif;
+	padding-left: 2.5em;
+	padding-bottom: 0em;
+	padding-top: 0.2em;
+	margin-top: 0.3em;	
+}
+
+h2 {
+	color:#ffffff ;
+	text-shadow: 2px 2px 2px #272d3a, 3px 10px 10px #ffffff;
+	font-size: 20pt;
+	font-family: Tahoma;
+	padding: 0.25em;
+	letter-spacing: 3px;
+}
+
+.headline2 {
+	padding-left: 8.5em;
+}
+
+img {
+	-moz-box-shadow: 5px -8px 35px 30px white;
+	-webkit-box-shadow:  5px -8px 35px 30px white;
+	box-shadow: 5px -8px 35px 30px white;
+	border-radius: 5px;
+	z-index: 2;	
+}
+
+.brightness {
+	-webkit-filter: brightness(150%);filter: brightness (150%);
+}
+
+#bild1 {
+	float: left;
+	margin-left: 1em;
+	margin-top: 1em;
+	box-shadow: 2px -2px -10px 10px #ffffff, 0 0 25px #DFD9E3, 0 0 20px #fff;
+	-moz-box-shadow: 2px -2px -10px 10px #ffffff, 0 0 25px #DFD9E3, 0 0 20px #fff;
+	-webkit-box-shadow: 2px -2px -10px 10px #ffffff, 0 0 25px #DFD9E3, 0 0 20px #fff;
+}
+
+#bild2 {
+	width: 120px;
+	height: 80px;
+	position: relative;
+	animation-name: mymove;
+	animation-duration: 10s;
+	animation-delay: 2s;
+	animation-timing-function: ease;
+	animation-fill-mode: forwards;
+	animation-iteration-count: 1; 
+	margin-top: 0.7em;
+	margin-bottom: 0em;
+	margin-left: 18em;	
+}
+@keyframes mymove {
+	
+	from {left: 0px;}
+	to {left: 530px;}
+}
+
+/* Navigation */
+		
+nav {
+	width: 65em;
+	height: 3.7em;
+	border-radius: 5px;
+	overflow: hidden;
+	margin: 0;
+	margin-bottom: 1em;
+}
+.liste {
+	font-size: 12pt;
+	letter-spacing: 1px;
+	font-weight: bold;
+}
+
+li {
+	float: left;
+	list-style: none;
+	padding-top: 0.2em;
+	padding-bottom: 0.2em;
+	padding-right: 1.5em;
+	padding-left: 1.5em;
+	margin-left: 0.3em;
+	margin-right: 0.6em;
+	margin-top: 0.1em;
+	border-radius: 5px;
+	background: linear-gradient(to top, #DFD9E3, #FFFFFF);
+	border-width: 3px;
+	border-style: solid;
+	border-color: #1aba9c;
+	box-shadow: 2px 2px 2px #272d3a, 0 0 25px #ffffff, 0 0 20px #fff;
+	-moz-box-shadow: 2px 2px 2px #272d3a, 0 0 25px #ffffff, 0 0 20px #fff;
+	-webkit-box-shadow: 2px 2px 2px #272d3a, 0 0 25px #ffffff, 0 0 20px #fff;
+}
+
+/* Ende Navigation */
+
+
+/* Ende oberer Bereich */
+
+/* ......................................*/
+
+/*Main Elements*/
+
+section {
+	width: 44em;
+	float: left;
+	margin-top: 1em;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0.5em;
+	letter-spacing: 1px;
+}
+		
+.leistungen {
+	font-size: 11pt;
+	line-height: 1.5;
+}
+
+#bild3 {
+	float: left;
+	margin-right: 0.3em;
+}
+
+h3 {
+	font-family: Tahoma;
+	letter-spacing: 2px;
+	font-size: 12pt;
+	color: #1abc9c;
+	padding-bottom: 0.2em;
+	margin-bottom: 0.5em;
+	margin-top: 0em;
+	margin-left: 0.2em;
+}
+
+table, th, td {
+	text-align: left;
+	background-color: white;
+	font-size: 14px;
+	padding: 0.3em;
+	font-style: italic;
+	color: #43466D;
+	}
+
+caption {	
+font-size: 15pt;
+font-style: normal;
+font-weight: bold;
+color: #1abc9c;
+padding-top: 1em;
+
+}
+
+#tabelle1 {
+	width: 98%;
+	float: left;
+	font-size: 16pt;
+	padding: 0.5em;
+	background: linear-gradient(to top, #DFD9E3, #FFFFFF);
+	border-radius: 5px;
+	margin-top: 0.4em;
+	margin-left: 0.05em;
+	-moz-box-shadow: 2px 2px 2px #272d3a, 20px -10px 35px 30px white;
+	-webkit-box-shadow: 2px 2px 2px #272d3a, 20px -10px 35px 30px white;
+	box-shadow: 2px 2px 2px #272d3a, 20px -10px 35px 30px white;
+}
+
+blockquote {
+	font-style: italic;
+	font-size: 10pt;
+	padding: 0.5em;	
+}
+
+.testimonial {
+	font-weight: bold;
+	font-style: normal;
+	color: #1aba9c;
+	padding: 0.5em;
+	font-size: 10pt;
+}
+
+/*Ende Main Elements*/
+
+/*..................................................*/
+
+/*Rechts aside*/
+
+#rechts {
+	width: 20em;
+	float: right;
+	height: 55em;
+	background-color: #ffffff; 
+}
+#rechts aside {
+	font-size: 95%;
+	float: right;
+	background: linear-gradient(to top, #1aba9c, #FFFFFF);
+	margin-top: 0.5em;
+	border-radius: 5px;
+	box-shadow: 2px 2px 2px #ffffff, 0 0 25px #ffffff, 0 0 20px #fff;
+	-moz-box-shadow: 2px 2px 2px #ffffff, 0 0 25px #ffffff, 0 0 20px #fff;
+	-webkit-box-shadow: 2px 2px 2px #ffffff, 0 0 25px #ffffff, 0 0 20px #fff;
+}
+
+h4 {
+	padding-top: 0em;
+	font-size: 32pt;
+	text-align: center;
+	color: #1abc9c;
+	letter-spacing: 2px; 
+	text-shadow: 2px 2px 2px #ffffff, 3px 10px 10px #ffffff;
+}
+
+#tabelle2 {
+	width: 100%;
+	float: right;
+	padding-top: 0.5em;
+	font-size: 12pt;
+	border-radius: 5px;
+	background: linear-gradient(to top, #DFD9E3, #FFFFFF);
+	margin-top: 0.6em;
+	-moz-box-shadow: 2px 2px 2px #272d3a, 20px -10px 35px 30px white;
+	-webkit-box-shadow: 2px 2px 2px #272d3a, 20px -10px 35px 30px white;
+	box-shadow: 2px 2px 2px #272d3a, 20px -10px 35px 30px white;
+}
+
+#tabelle3 {
+	width: 100%;
+	float: right;
+	padding-top: 0.5em;
+	margin-top: 0.6em;
+	border-radius: 5px;
+	background: linear-gradient(to top, #DFD9E3, #FFFFFF);
+	margin-top: 2.3em;
+	-moz-box-shadow: 2px 2px 2px #272d3a, 20px -10px 35px 30px white;
+	-webkit-box-shadow: 2px 2px 2px #272d3a, 20px -10px 35px 30px white;
+	box-shadow: 2px 2px 2px #272d3a, 20px -10px 35px 30px white;
+}
+
+h5 {
+	font-family: Tahoma;
+	letter-spacing: 1px;
+	font-size: 15pt;
+	color: #ffffff;
+	padding-left: 0.1em;
+	padding-bottom: 0.5em;
+	padding-top: 0.1em;
+	margin-top: 0.1em;
+	text-shadow: 2px 2px 2px #272d3a, 3px -10px 10px #ffffff;	
+}
+
+div.a {
+	font-size: 9pt;
+	font-style: italic;
+	padding-left: 0.2em;
+	color: #272d3a;
+}
+div.b {
+	font-size: 9pt;
+	color: #272d3a;	
+}
+
+#adresse {
+	height: 15.5em;
+	width:20em;
+	font-style: normal;
+	float: left;
+	padding-top: 1.5em;
+	padding-bottom: 0.3em;
+	padding-left: 0.8em;
+	padding-right: 0.7;
+	margin-top: 4.6em;
+	background-image: url("bilder/waschmaschine.png");
+	background-size:contain;
+	background-color: #ffffff;
+	position: top-right;
+	border-radius: 5px;
+	-moz-box-shadow: 2px 2px 2px #272d3a, 20px -10px 35px 30px white;
+	-webkit-box-shadow: 2px 2px 2px #272d3a, 20px -10px 35px 30px white;
+	box-shadow: 2px 2px 2px #272d3a, 20px -10px 35px 30px white;
+}	
+
+/*Ende rechts aside*/
+
+/*.............................................*/
+
+/*Fußbereich*/
+
+footer {
+	background-color: #ffffff;
+	width: 80em;
+	height: 2em;
+	font-size: 80%;
+	clear: both;
+	padding: 0.5em;
+	padding-left: 0em;
+	margin-top: 2.5em;
+	margin-left: 0.4em;	
+}
+	
+#impressum {
+	font-size: 100%;
+	clear: both;
+	background-color: #DFD9E3;
+	padding: 0.6em;
+	border-radius: 5px;
+	width: 79em;
+	margin-left: 0.4em;
+	-moz-box-shadow: 2px 2px 2px #272d3a, 20px -10px 35px 30px white;
+	-webkit-box-shadow: 2px 2px 2px #272d3a, 20px -10px 35px 30px white;
+	box-shadow: 2px 2px 2px #272d3a, 20px -10px 35px 30px white;
+}
+	
+	
+/* Ende Fußbereich*/
+
+/*.........................................*/
+
+/* Ende Visitenkarte gesamt*/
+
+
+
+	
+
+	
